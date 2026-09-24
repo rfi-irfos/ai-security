@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+litellm
+python-dotenv
+pyyaml
+pydantic
+sqlalchemy
+boto3
+google-generativeai
+requests

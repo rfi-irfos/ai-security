@@ -1,0 +1,34 @@
+{
+  "name": "cryptex-oss",
+  "version": "2.8.1",
+  "description": "Open-source LLM red-teaming toolkit. 159 transforms, 25 tool surfaces, BYOK gateway. Static site, runs in your browser.",
+  "scripts": {
+    "build": "cd app && npm ci && npm run build",
+    "dev": "cd app && npm run dev",
+    "check": "cd app && npm run check",
+    "test": "cd app && npx vitest run",
+    "test:unit": "cd app && npx vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "[URL_REDACTED]"
+  },
+  "homepage": "[URL_REDACTED]",
+  "bugs": "[URL_REDACTED]",
+  "license": "MIT",
+  "keywords": [
+    "llm",
+    "red-team",
+    "jailbreak",
+    "ai-safety",
+    "prompt-engineering",
+    "steganography",
+    "cipher",
+    "encoder",
+    "decoder",
+    "byok",
+    "static-site",
+    "svelte",
+    "sveltekit"
+  ]
+}

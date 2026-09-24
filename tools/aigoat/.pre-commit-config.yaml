@@ -1,0 +1,22 @@
+repos:
+  - repo: [URL_REDACTED]
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=500']
+
+  - repo: [URL_REDACTED]
+    rev: v0.4.4
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+
+  - repo: [URL_REDACTED]
+    rev: "2.5.0"
+    hooks:
+      - id: pyflakes

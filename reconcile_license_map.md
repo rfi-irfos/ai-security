@@ -7,28 +7,28 @@ Each component retains its original upstream license. This file maps every direc
 | Tool | Upstream | License | Attribution Required |
 |------|----------|---------|---------------------|
 | tools/garak | NVIDIA/garak | Apache 2.0 | Yes – retain NOTICE, copyright headers |
-| tools/FuzzyAI | CyberArk/FuzzyAI | Apache 2.0 | Yes – retain NOTICES.txt, copyright headers |
-| tools/AIGoat | AISecurityConsortium/AIGoat | Apache 2.0 | Yes – retain NOTICE, copyright |
+| tools/fuzzyai | CyberArk/FuzzyAI | Apache 2.0 | Yes – retain NOTICES.txt, copyright headers |
+| tools/aigoat | AISecurityConsortium/AIGoat | Apache 2.0 | Yes – retain NOTICE, copyright |
 | tools/spikee | ReversecLabs/spikee | MIT (see below) | Yes – retain LICENSE.txt, copyright |
-| tools/spike-skill | ReversecLabs/spike-skill | MIT | Yes |
-| tools/llama-3-prompt-injection-fine-tuning | ReversecLabs/llama-3-prompt-injection-fine-tuning | MIT | Yes |
-| tools/damn-vulnerable-llm-agent | ReversecLabs/damn-vulnerable-llm-agent | Apache 2.0 | Yes |
-| tools/llm-vulnerable-recruitment-app | ReversecLabs/llm-vulnerable-recruitment-app | Apache 2.0 | Yes |
-| tools/llm-webmail | ReversecLabs/llm-webmail | MIT | Yes |
-| tools/design-patterns-for-securing-llm-agents-code-samples | ReversecLabs/design-patterns-for-securing-llm-agents-code-samples | MIT | Yes |
-| tools/2025-07-llm-noise-based-attacks-workspace | ReversecLabs/2025-07-llm-noise-based-attacks-workspace | MIT | Yes |
-| tools/spikee-test-chatbot | ReversecLabs/spikee-test-chatbot | MIT | Yes |
+| tools/spike_skill | ReversecLabs/spike-skill | MIT | Yes |
+| tools/llama_pi_ft | ReversecLabs/llama-3-prompt-injection-fine-tuning | MIT | Yes |
+| tools/damn_vuln_agent | ReversecLabs/damn-vulnerable-llm-agent | Apache 2.0 | Yes |
+| tools/llm_vuln_recruit | ReversecLabs/llm-vulnerable-recruitment-app | Apache 2.0 | Yes |
+| tools/llm_webmail | ReversecLabs/llm-webmail | MIT | Yes |
+| tools/securing_patterns | ReversecLabs/design-patterns-for-securing-llm-agents-code-samples | MIT | Yes |
+| tools/noise_workspace | ReversecLabs/2025-07-llm-noise-based-attacks-workspace | MIT | Yes |
+| tools/spikee_chatbot | ReversecLabs/spikee-test-chatbot | MIT | Yes |
 
 ## MIT Components
 
 | Tool | Upstream | License | Attribution Required |
 |------|----------|---------|---------------------|
-| tools/llm-guard | ProtectAI/llm-guard | MIT | Yes |
+| tools/llmguard | ProtectAI/llm-guard | MIT | Yes |
 | tools/agentdojo | eth-sri/agentdojo | MIT | Yes |
-| tools/cryptex-oss | m4xx101/cryptex-oss | MIT | Yes |
-| tools/PIArena | sleeepeer/PIArena | MIT | Yes |
+| tools/cryptex | m4xx101/cryptex-oss | MIT | Yes |
+| tools/piarena | sleeepeer/PIArena | MIT | Yes |
 | tools/rebuff | ProtectAI/rebuff | Apache 2.0 | Yes – note discrepancy: repo says Apache 2.0 |
-| tools/ps-fuzz | prompt-security/ps-fuzz | MIT (proprietary note in LICENSE) | Check LICENSE – may be source-available only |
+| tools/psfuzz | prompt-security/ps-fuzz | MIT (proprietary note in LICENSE) | Check LICENSE – may be source-available only |
 | tools/spikee | ReversecLabs/spikee | MIT | Yes |
 
 ## GPL Components
@@ -41,7 +41,7 @@ Each component retains its original upstream license. This file maps every direc
 
 | Tool | Upstream | Notes |
 |------|----------|-------|
-| tools/EvoSynth | dongdongunique/EvoSynth | No LICENSE file found. Treat as all-rights-reserved until verified. |
+| tools/evosynth | dongdongunique/EvoSynth | No LICENSE file found. Treat as all-rights-reserved until verified. |
 
 ## Upstream Sources (canonical URLs)
 

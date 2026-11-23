@@ -17,5 +17,4 @@ spikee test --dataset datasets/cybersec-2026-01-full-prompt-dataset-*.jsonl \
 spikee results analyze --result-file results/*.jsonl
 ```
 
-See `tools/` for individual tool documentation.
-See `reconcile_license_map.md` for original upstream licenses and attribution.
+See `tools/` for individual tool documentation. The top-level project license is MIT; imported tool components retain their license and notice files where included.
